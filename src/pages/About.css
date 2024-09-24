@@ -1,0 +1,37 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.about_left {
+  flex-basis: 40%;
+}
+
+.about_right {
+  flex-basis: 56%;
+}
+
+.about_img {
+  width: 100%;
+}
+
+.about h3 {
+  font-weight: 600 !important;
+  font-weight: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.about h2 {
+  font-size: 45px;
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+  max-width: 800px;
+}
+
+.about p {
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+}

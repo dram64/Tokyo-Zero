@@ -1,0 +1,41 @@
+#animated-text-strip{
+  margin-top: 6px;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 175px;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+  }
+  #animated-text-strip .marquee {
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+    max-width: none;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  
+  #animated-text-strip{
+    background:rgb(240, 59, 210);
+    padding: 1rem 0;
+  }
+  .marquee{
+    font-family: 'Fantasy', sans-serif;
+    font-size: 9rem;
+    font-style: italic;
+    opacity: .7;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+  }
+
+  /*rgb(154, 135, 101)

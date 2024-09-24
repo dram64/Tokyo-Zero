@@ -1,0 +1,332 @@
+
+.imageFadeProducts {
+
+    animation: fade-in 5s;
+    transform: translateX(80%);
+    overflow: hidden;
+    position:absolute;
+    margin-top: 90px;
+
+  }
+
+.topazAcrylic {
+    animation: fade-in 5s;
+    margin-top: 90px;
+  }
+
+.kafkaAcrylic {
+    animation: fade-in 5s;
+  }
+
+.sidebySideAcrylics{
+    margin-top: 150px;
+    
+}
+
+div.sidebySideAcrylics img {
+    padding:125px; 
+}
+
+ 
+  
+
+.mikuProduct {
+
+    animation: fade-in 5s;
+    transform: translateX(125%);
+    overflow: hidden;
+    position:absolute;
+    margin-top: 170px;
+
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+
+.imageAnimShowcaseIM{
+    padding-top: 100px;
+
+    width: 75%;
+    height: auto;
+    animation: fade-in 5s, slideAnimation 5s;
+    transform: translateX(10%);
+}
+  
+.imageAnimShowcaseIM::after {
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:600px;
+    height: 670px;;
+    background-color:black;
+    transform: skew(0deg,-3deg);
+}
+.imageAnimShowcaseIM::before {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    width:550px;
+    height: 700px;;
+    background-color:rgb(233, 122, 168);
+    transform: skew(0deg,4deg);
+}
+
+.imageAnimShowcaseMiku{
+    padding-top: 100px;
+
+    width: 75%;
+    height: auto;
+    animation: fade-in 5s, slideAnimation 5s;
+    transform: translateX(10%);
+}
+  
+.imageAnimShowcaseMiku::after {
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:600px;
+    height: 670px;;
+    background-color:rgb(16, 255, 243);
+    transform: skew(0deg,-3deg);
+}
+.imageAnimShowcaseMiku::before {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    width:550px;
+    height: 700px;;
+    background-color:rgb(255, 251, 0);
+    transform: skew(0deg,4deg);
+}
+
+.rectangleMiku{
+    display:flex;
+    width:100%;
+    height:300px;
+    background:rgb(16, 255, 243);
+    margin-top: 10%;
+    transform: skewX(-10deg);
+    transform: skew(0deg,2deg);
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
+}
+
+.rectangleMiku::before{
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:100%;
+    height:100%;
+    background-color: rgb(255, 251, 0);    
+    transform: skewX(10deg);
+    transform: skew(0deg,-3deg);
+    background-image:url('../assets/MikuHeadshot.png');
+    background-position:center;
+    background-size:cover;
+
+    transform-origin:inherit;
+
+}
+
+
+.rectangleIM{
+    display:flex;
+    width:100%;
+    height:300px;
+    background:rgb(0, 0, 0);
+    margin-top: 10%;
+    transform: skewX(-10deg);
+    transform: skew(0deg,2deg);
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
+}
+
+.rectangleIM::before{
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:100%;
+    height:100%;
+    background-color: rgb(233, 122, 168);    
+    transform: skewX(10deg);
+    transform: skew(0deg,-3deg);
+    background-image:url('../assets/IMHeadshot.png');
+    background-position:center;
+    background-size:cover;
+
+    transform-origin:inherit;
+    
+
+}
+
+
+.imageAnimShowcasePanty{
+    padding-top: 100px;
+
+    width: 75%;
+    height: auto;
+    animation: fade-in 5s, slideAnimation 5s;
+    transform: translateX(10%);
+}
+  
+.imageAnimShowcasePanty::after {
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:600px;
+    height: 670px;;
+    background-color:rgb(16, 255, 243);
+    transform: skew(0deg,-3deg);
+}
+.imageAnimShowcasePanty::before {
+    content:'';
+    position: absolute;
+    z-index:-1;
+    width:550px;
+    height: 700px;;
+    background-color:rgb(255, 251, 0);
+    transform: skew(0deg,4deg);
+}
+
+.rectanglePanty{
+    display:flex;
+    width:100%;
+    height:300px;
+    background:rgb(16, 255, 243);
+    margin-top: 10%;
+    transform: skewX(-10deg);
+    transform: skew(0deg,2deg);
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
+}
+
+.rectanglePanty::before{
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:100%;
+    height:100%;
+    background-color: rgb(255, 251, 0);    
+    transform: skewX(10deg);
+    transform: skew(0deg,-3deg);
+    background-image:url('../assets/PantyHeadshot.png');
+    background-position:center;
+    background-size:cover;
+
+    transform-origin:inherit;
+
+}
+
+
+.rectangleHoyo{
+    display:flex;
+    width:100%;
+    height:300px;
+    background:rgb(154, 135, 101);
+    margin-top: 10%;
+    transform: skewX(-10deg);
+    transform: skew(0deg,2deg);
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
+}
+
+.rectangleHoyo::before{
+    content:'';
+    position: absolute;
+    z-index:-2;
+    bottom:-24px;
+    left:-24px;
+    width:100%;
+    height:100%;
+    background-color: rgb(255, 255, 255);    
+    transform: skewX(10deg);
+    transform: skew(0deg,-3deg);
+    background-image:url('../assets/HoyoHeadshot.png');
+    background-position:center;
+    background-size:cover;
+    transform-origin:inherit;
+}
+
+.textShowcase{
+    color:green;
+
+}
+
+.textShowcase::after{
+    content:"!!!!";
+    color:blue;
+    
+}
+
+
+.hoyoContainer {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; /* adjust as needed */
+    height: 500px; /* adjust as needed */
+
+}
+
+.sidebySide{
+    margin-top: 150px;
+    filter: drop-shadow(-10px 10px 1px rgba(151, 148, 148, 0.5));	
+}
+
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(10%);
+    }
+  }
