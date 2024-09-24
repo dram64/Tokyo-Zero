@@ -3,7 +3,7 @@ import kafkaText from "../assets/KafkaText.png";
 import swText from "../assets/SWText.png";
 import ironmouseText from "../assets/IronmouseText.png";
 import pantyText from "../assets/PantyText.png";
-import mikuText from "../assets/mikuText.png";
+import mikuText from "../assets/MikuText.png";
 
 const textData = [
   {

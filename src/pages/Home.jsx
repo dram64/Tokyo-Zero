@@ -1,4 +1,4 @@
-import DDShowcase from "../components/Showcase";
+import Display from "../components/Display";
 import ImageSlideshow from "../components/ImageSlideshow";
 import "./Home.css";
 
@@ -12,7 +12,7 @@ export const Home = () => {
         <span class="marquee">CHARACTER ANNOUNCEMENT COMING SOON&nbsp;</span>
       </div>
       <div></div>
-      <DDShowcase></DDShowcase>;
+      <Display></Display>;
     </div>
   );
 };

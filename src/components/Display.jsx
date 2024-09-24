@@ -1,11 +1,11 @@
-import "./Showcase.css";
+import "./Display.css";
 import panty from "../assets/Panty.png";
 import ironMouse from "../assets/IronmouseRaceQueen.png";
 import miku from "../assets/Miku.png";
 import oc from "../assets/Reika.png";
 import chiaki from "../assets/ChiakiShowcase.png";
 
-const Showcase = () => {
+const Display = () => {
   return (
     <div className="showcase_container">
       <div className="card">
@@ -34,4 +34,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Display;

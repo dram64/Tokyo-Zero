@@ -1,7 +1,7 @@
 import imIcon from "../assets/IMIcon.png";
 import pantyStocking from "../assets/PantyIcon.png";
 import topazIcon from "../assets/TopazIcon.png";
-import kafkaIcon from "../assets/kafkaIcon.png";
+import kafkaIcon from "../assets/KafkaIcon.png";
 import mikuIcon from "../assets/MikuIcon.png";
 import swIcon from "../assets/SWIcon.png";
 
